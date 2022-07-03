@@ -1,0 +1,249 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userName": "Leanne Graham",
+      "email": "Leanne@miko.com"
+    },
+    {
+      "id": 2,
+      "userName": "Michael Graham",
+      "email": "Michael@miko.com"
+    },
+    {
+      "id": 3,
+      "userName": "Miko Graham",
+      "email": "miko@miko.com"
+    }
+  ],
+  "posts": [
+    {
+      "userId": 2,
+      "userName": "Michael Graham",
+      "id": 2,
+      "title": "Post2",
+      "body": "Lorem Ipsum"
+    },
+    {
+      "userId": 3,
+      "userName": "Miko Graham",
+      "id": 1,
+      "title": "Post1",
+      "body": "Lorem Ipsum"
+    },
+    {
+      "userId": 3,
+      "userName": "Miko Graham",
+      "id": 2,
+      "title": "Post2",
+      "body": "Lorem Ipsum"
+    },
+    {
+      "title": "Post5",
+      "body": "Lorem Ipsum post 5",
+      "userId": 2,
+      "userName": "Michael Graham",
+      "id": 3
+    },
+    {
+      "title": "Post me today",
+      "body": "eeegeef",
+      "userId": 1,
+      "userName": "Leanne Graham",
+      "id": 5
+    },
+    {
+      "title": "Post them",
+      "body": "u are cool",
+      "userId": 1,
+      "userName": "Leanne Graham",
+      "id": 6
+    },
+    {
+      "title": "posting you ",
+      "body": "efefefef",
+      "userId": 1,
+      "userName": "Leanne Graham",
+      "id": 8
+    },
+    {
+      "title": " babababab",
+      "body": " deef",
+      "userId": 1,
+      "userName": "Leanne Graham",
+      "id": 38
+    },
+    {
+      "title": " eeffe",
+      "body": " efefefef",
+      "userId": 1,
+      "userName": "Leanne Graham",
+      "id": 39
+    },
+    {
+      "title": " efeef",
+      "body": " efefefef",
+      "userId": 3,
+      "userName": "Miko Graham",
+      "id": 40
+    },
+    {
+      "title": " efefef",
+      "body": " efefefef",
+      "userId": 3,
+      "userName": "Miko Graham",
+      "id": 41
+    },
+    {
+      "title": " wdwdw",
+      "body": " wdwd",
+      "userId": 3,
+      "userName": "Miko Graham",
+      "id": 42
+    },
+    {
+      "title": " efef",
+      "body": " wwwwwww",
+      "userId": 3,
+      "userName": "Miko Graham",
+      "id": 43
+    },
+    {
+      "title": " wwdwd",
+      "body": " wdwdwdw",
+      "userId": 3,
+      "userName": "Miko Graham",
+      "id": 44
+    }
+  ],
+  "comments": [
+    {
+      "userId": 1,
+      "postId": 1,
+      "id": 1,
+      "name": "Miko",
+      "email": "miko@miko.com",
+      "body": "Comments"
+    },
+    {
+      "userId": 1,
+      "postId": 1,
+      "id": 2,
+      "name": "Miko",
+      "email": "miko@miko.com",
+      "body": "Comments"
+    },
+    {
+      "userId": 1,
+      "postId": 2,
+      "id": 1,
+      "name": "ciko",
+      "email": "ciko@miko.com",
+      "body": "Comments"
+    },
+    {
+      "userId": 1,
+      "postId": 2,
+      "id": 2,
+      "name": "Koko",
+      "email": "Koko@miko.com",
+      "body": "Comments"
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 1,
+      "name": "Riko",
+      "email": "Riko@miko.com",
+      "body": "Comments"
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 2,
+      "name": "Poko",
+      "email": "Poko@miko.com",
+      "body": "Comments"
+    },
+    {
+      "userId": 2,
+      "postId": 2,
+      "id": 1,
+      "name": "Fiko",
+      "email": "Fiko@miko.com",
+      "body": "Comments"
+    },
+    {
+      "userId": 2,
+      "postId": 2,
+      "id": 2,
+      "name": "Diko",
+      "email": "Diko@miko.com",
+      "body": "Comments"
+    },
+    {
+      "name": "fefef",
+      "email": "samir.guliyev.88@gmail.com",
+      "body": "efefefefef",
+      "userId": 2,
+      "postId": 1,
+      "id": 3
+    },
+    {
+      "name": "fefef",
+      "email": "samir.guliyev.88@gmail.com",
+      "body": "efefefefef",
+      "userId": 2,
+      "postId": 1,
+      "id": 4
+    },
+    {
+      "name": "efefe",
+      "email": "samir.88@gmail.com",
+      "body": "wdwdwdwdwdwd",
+      "userId": 1,
+      "postId": 1,
+      "id": 5
+    },
+    {
+      "name": "efefe",
+      "email": "samir.88@gmail.com",
+      "body": "wdwdwdwdwdwd",
+      "userId": 1,
+      "postId": 1,
+      "id": 6
+    },
+    {
+      "name": "efefe",
+      "email": "samir.guliyev.88@gmail.com",
+      "body": "dwwdwdwdwd",
+      "userId": 1,
+      "postId": 1,
+      "id": 7
+    },
+    {
+      "name": "efefe",
+      "email": "samir.guliyev.88@gmail.com",
+      "body": "dwwdwdwdwd",
+      "userId": 1,
+      "postId": 1,
+      "id": 8
+    },
+    {
+      "name": "efefe",
+      "email": "samir.guliyev.88@gmail.com",
+      "body": "dwwd",
+      "userId": 1,
+      "postId": 1,
+      "id": 9
+    },
+    {
+      "name": "efefe",
+      "email": "sam.88@gmail.com",
+      "body": "scscscs",
+      "userId": 3,
+      "postId": 1,
+      "id": 10
+    }
+  ]
+}

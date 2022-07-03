@@ -1,0 +1,46 @@
+@import "./base.scss";
+
+.user {
+  &__head {
+    @include flex-center;
+    margin: 35px 0 35px;
+    .add {
+      cursor: pointer;
+          font-size: 30px;
+    }
+    .back {
+      cursor: pointer;
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+  &__posts {
+    display: flex;
+    flex-direction: column;
+    .post {
+      @include flex-row;
+
+      @include border;
+      align-items: center;
+
+      width: 80%;
+      margin: 0 auto 15px;
+      .delete {
+        width: 5%;
+        height: 25px;
+        margin-right: 15px;
+        cursor: pointer;
+        svg {
+          fill: #5b5bea;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    a {
+      @include flex-row;
+      justify-content: space-between;
+      width: 95%;
+    }
+  }
+}

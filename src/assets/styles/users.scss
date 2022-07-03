@@ -1,0 +1,13 @@
+@import "./base.scss";
+
+.users {
+  @include flex-center;
+  padding: 38px;
+  .user {
+    @include border;
+    padding: 25px;
+    button {
+      cursor: pointer;
+    }
+  }
+}

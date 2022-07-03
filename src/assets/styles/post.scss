@@ -1,0 +1,43 @@
+@import "./base.scss";
+.post {
+  @include flex-column;
+  margin-top: 30px;
+  &__head {
+    @include flex-row;
+    justify-content: space-between;
+    .back{
+        cursor: pointer;
+    }
+    
+  }
+  &__context {
+    margin: 50px auto 40px;
+    h5 {
+      text-align: center;
+    }
+  }
+  &__buttons {
+    @include flex-row;
+    justify-content: space-between;
+     button {
+      width: 94px;
+      font-size: 13px;
+    }
+  }
+  &__comments {
+ 
+.comment{
+   @include border;
+    margin-top: 40px;
+    @include flex-column;
+}
+    .header {
+      @include flex-row;
+      justify-content: space-between;
+      a {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+}
