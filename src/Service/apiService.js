@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const usersApi = createApi({
   reducerPath: "users",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:3000",
+    baseUrl: "https://users-posts-br.herokuapp.com/api",
   }),
   tagTypes: ["Users"],
   endpoints: (builder) => ({
@@ -54,7 +54,7 @@ export const usersApi = createApi({
       invalidatesTags: ["Users"],
     }),
     deletePost: builder.mutation({
-      query: ({  postId }) => ({
+      query: ({ postId }) => ({
         url: `/posts/${postId}`,
         method: "DELETE",
       }),
