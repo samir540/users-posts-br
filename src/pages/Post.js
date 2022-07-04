@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useParams, Link, Outlet, useNavigate } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { usersApi } from "../Service/apiService";
 import { FaArrowLeft } from "react-icons/fa";
 import "../assets/styles/post.scss";

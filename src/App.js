@@ -3,7 +3,7 @@ import User from "./pages/User";
 import Users from "./pages/Users";
 import NotFoundPage from "./pages/NotFoundPage";
 import Post from "./pages/Post";
-import Comments from "./components/Comments";
+
 
 function App() {
   return (
@@ -12,9 +12,10 @@ function App() {
 
       {/* <Route path="/users" element={<Users />} /> */}
       <Route path="/users/:userId" element={<User />} />
-      <Route path="/users/:userId/:postId" element={<Post />}>
-        <Route path=":commentId" element={<Comments />} />
-      </Route>
+      <Route path="/users/:userId/:postId" element={<Post />}/>
+     
+
+
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );
