@@ -6,7 +6,7 @@ const { TextArea } = Input;
 
 const PostForm = ({ onCancel, user }) => {
 
-  const [post, setPost] = useState({});
+
   const [addPost] = usersApi.useAddPostMutation();
 
   const onFinish = (values) => {
@@ -31,12 +31,12 @@ const PostForm = ({ onCancel, user }) => {
         span: 16,
       }}
       initialValues={{
-        title: " ",
-        body: " ",
+        title: "",
+        body: "",
       }}
       onFinish={onFinish}
       // onFinishFailed={onFinishFailed}
-      autoComplete="off"  
+      autoComplete="off"
     >
       <Form.Item
         label="Title"
@@ -74,13 +74,12 @@ const PostForm = ({ onCancel, user }) => {
           type="primary"
           htmlType="submit"
           className="mr-3"
-         
-          onClick={() => onCancel()}
+          
         >
           Save
         </Button>
 
-        <Button type="primary" htmlType="submit" onClick={() => onCancel()}>
+        <Button type="primary" htmlType="button" onClick={() => onCancel()}>
           Cancel
         </Button>
       </Form.Item>

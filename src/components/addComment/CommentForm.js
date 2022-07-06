@@ -27,11 +27,7 @@ const CommentForm = ({ onCancel, post }) => {
       wrapperCol={{
         span: 16,
       }}
-      initialValues={{
-        name: "",
-        email: "",
-        body: "",
-      }}
+    
       onFinish={onFinish}
       //   onFinishFailed={onFinishFailed}
       autoComplete="off"
@@ -85,11 +81,11 @@ const CommentForm = ({ onCancel, post }) => {
           type="primary"
           htmlType="submit"
           className="mr-3"
-          onClick={() => onCancel()}
+         
         >
           Save
         </Button>
-        <Button type="primary" htmlType="submit" onClick={() => onCancel()}>
+        <Button type="primary" htmlType="button" onClick={() => onCancel()}>
           Cancel
         </Button>
       </Form.Item>
