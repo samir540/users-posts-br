@@ -23,6 +23,7 @@ const Users = () => {
               <p className="user__name">name: {user.userName} </p>
               <div className="user__post">
                 <p className="title">Email: {user.email} </p>{" "}
+                <p>Welcome</p>
               </div>
               <Link to={`users/${user.id}`}>
                 <button>Details</button>
